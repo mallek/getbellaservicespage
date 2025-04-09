@@ -1,0 +1,21 @@
+title: Bella Restoration
+description: Professional restoration services in Denver, Colorado - Fire, Smoke, Water, and Mold damage restoration
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://getbellaservices.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  services:
+    output: true
+
+# Default front matter
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default" 
