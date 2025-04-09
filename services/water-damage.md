@@ -17,7 +17,7 @@ description: Professional water damage restoration services in Denver, Colorado.
                     <li><strong>Assessment</strong> - Our team will assess the extent of the damage and create a restoration plan</li>
                     <li><strong>Water Extraction</strong> - We use professional equipment to remove standing water</li>
                     <li><strong>Drying & Dehumidification</strong> - Specialized equipment is used to dry affected areas</li>
-                    <li><strong>Cleaning & Sanitizing</strong> - We clean and sanitize affected areas to prevent mold growth</li>
+                    <li><strong>Cleining & Sanitizing</strong> - We clean and sanitize affected areas to prevent mold growth</li>
                     <li><strong>Restoration</strong> - We restore your property to its pre-damage condition</li>
                 </ol>
 
@@ -33,7 +33,7 @@ description: Professional water damage restoration services in Denver, Colorado.
             </div>
             <div class="col-md-4">
                 <div class="service-wrapper">
-                    <img src="/images/icon-water2.jpg" width="180" alt="Water Damage Restoration">
+                    <img src="{{ site.baseurl }}/assets/images/icon-water2.jpg" width="180" alt="Water Damage Restoration">
                     <h3>24/7 Emergency Service</h3>
                     <p>Call us anytime at (303) 554-8883 for immediate assistance with water damage restoration.</p>
                 </div>
