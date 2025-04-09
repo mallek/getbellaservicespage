@@ -1,0 +1,2 @@
+# This file tells GitHub Pages to not use Jekyll to build the site
+# We are using GitHub Actions to build and deploy instead 

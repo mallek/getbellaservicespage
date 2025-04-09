@@ -6,6 +6,15 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -43,12 +52,18 @@ jobs:
       run: |
         cp CNAME _site/
     
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
+    - name: Create .nojekyll file
+      run: |
+        touch _site/.nojekyll
+    
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+    
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
       with:
-        github_token: ${{ secrets.PERSONAL_TOKEN }}
-        publish_dir: ./_site
-        publish_branch: gh-pages
-        force_orphan: true
-        commit_message: "Deploy: ${{ github.event.head_commit.message }}" 
+        path: ./_site
+    
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2 
