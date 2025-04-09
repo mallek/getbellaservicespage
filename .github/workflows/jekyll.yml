@@ -12,19 +12,25 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        fetch-depth: 0  # Fetch all history for .git-blame-ignore-revs
+        fetch-depth: 0
     
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.1'
+        ruby-version: '3.0'
         bundler-cache: true
-        cache-version: 0
+    
+    - name: Print Ruby and Bundler versions
+      run: |
+        ruby -v
+        gem -v
+        bundle -v
     
     - name: Install dependencies
       run: |
         gem install bundler
         bundle config path vendor/bundle
+        bundle config set --local deployment 'true'
         bundle install --jobs 4 --retry 3
     
     - name: Build with Jekyll
