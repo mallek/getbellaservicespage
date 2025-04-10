@@ -128,7 +128,7 @@ a:hover {
   margin: 10px 0 !important;
 }
 .service-wrapper p {
-  margin-top: 0;
+  margin-top: 10px;
 }
 /* Row */
 .service-wrapper-row {
