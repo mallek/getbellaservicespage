@@ -1,5 +1,11 @@
+# Development files
+_config_dev.yml
+.sass-cache
+.jekyll-cache
+vendor
+node_modules
+.tmp
+.DS_Store
+
 _site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-vendor/ 
+.jekyll-metadata 

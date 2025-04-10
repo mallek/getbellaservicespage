@@ -1,0 +1,17 @@
+version: '3'
+services:
+  site:
+    build: .
+    command: sh -c "chmod +x /srv/jekyll/post-run.sh && /srv/jekyll/post-run.sh && bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload"
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    environment:
+      - JEKYLL_ENV=development
+      - LANG=C.UTF-8
+      - LC_ALL=C.UTF-8
+      - RUBY_VERSION=3.3.4
+      - JEKYLL_ENABLE_LIVERELOAD=1
+      - JEKYLL_LIVERELOAD_PORT=35729 

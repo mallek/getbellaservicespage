@@ -33,7 +33,7 @@ description: Professional smoke damage cleanup services in Denver, Colorado. We 
             </div>
             <div class="col-md-4">
                 <div class="service-wrapper">
-                    <img src="{{ site.baseurl }}/assets/images/icon-smoke.jpg" width="180" alt="Smoke Damage Cleanup">
+                    <img src="{{ site.baseurl }}/assets/images/icon-smoke.png" width="180" alt="Smoke Damage Cleanup">
                     <h3>24/7 Emergency Service</h3>
                     <p>Call us anytime at (303) 554-8883 for immediate assistance with smoke damage cleanup.</p>
                 </div>
