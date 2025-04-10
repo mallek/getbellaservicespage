@@ -9,7 +9,6 @@ $(document).ready(function(){
 			pagination: true,
 			animateStartingFrameIn: true,
 			autoPlay: true,
-			autoPlayDelay: 3000,
 			preloader: false,
 			startingFrameID: "sequence",
 			pauseOnHover: true,
@@ -19,11 +18,7 @@ $(document).ready(function(){
 		};
 		
 		var mySequence = $("#sequence").sequence(options).data("sequence");
-		
-		// Force start the sequence
-		setTimeout(function() {
-			mySequence.next();
-		}, 100);
+
 	});
 
 	//Main menu Initialization
@@ -55,7 +50,7 @@ $(document).ready(function(){
 		var map = L.map('contact-us-map').setView([39.8475, -104.9814], 15);
 
 		// add an OpenStreetMap tile layer
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 			attribution: '&copy; Haley Computer Solutions'
 		}).addTo(map);
 
