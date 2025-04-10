@@ -49,6 +49,32 @@ description: Get answers to common questions about fire, water, and mold damage 
                         </div>
                     </div>
 
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse13">
+                                Do you handle insurance claims and offer direct billing?
+                            </a>
+                        </div>
+                        <div id="collapse13" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="answer">Answer:</div>
+                                <p>
+                                    Yes, we work directly with all major insurance companies and offer direct billing services. Our team is experienced in handling insurance claims and will work closely with your insurance provider to ensure a smooth process. We can:
+                                </p>
+                                <ul>
+                                    <li>File claims on your behalf</li>
+                                    <li>Provide detailed documentation and estimates</li>
+                                    <li>Communicate directly with your insurance adjuster</li>
+                                    <li>Handle all billing directly with your insurance company</li>
+                                    <li>Help you understand your policy coverage and benefits</li>
+                                </ul>
+                                <p>
+                                    This means you don't have to worry about upfront payments or reimbursement processes. We'll handle all the paperwork and billing directly with your insurance company.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <h3>Fire Restoration</h3>
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -278,6 +304,187 @@ description: Get answers to common questions about fire, water, and mold damage 
                                 <p>
                                     In our experience, if dealt with properly, buyers are relatively comfortable purchasing a home with a prior mold problem, as long as proper remediation protocol was followed and proper documentation made available. There is a lot of mis-information out there on mold. Opening up a search engine and typing "mold contamination" will open up a wide variety of end-of-the-world scenarios to the reader. We tell people, it's mold, not spent plutonium! Mold is a serious concern, but it is also manageable. If removed and cleaned to industry best practices, mold can be removed for good from any property. Don't let your real estate transaction falter at the eleventh hour due to emotional reactions to bad information – call us and schedule a real estate mold inspection, and we will meet with all interested parties to talk through a remediation plan that everyone is comfortable with.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Professional Cleaning</h3>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse51">
+                                What types of cleaning services do you offer?
+                            </a>
+                        </div>
+                        <div id="collapse51" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="answer">Answer:</div>
+                                <p>
+                                    We offer comprehensive cleaning services including:
+                                </p>
+                                <ul>
+                                    <li>Post-restoration deep cleaning</li>
+                                    <li>Carpet and upholstery cleaning</li>
+                                    <li>Air duct cleaning</li>
+                                    <li>Commercial cleaning</li>
+                                    <li>Specialized cleaning for smoke and water damage</li>
+                                    <li>Odor removal and deodorization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse52">
+                                How do you ensure thorough cleaning after restoration?
+                            </a>
+                        </div>
+                        <div id="collapse52" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="answer">Answer:</div>
+                                <p>
+                                    Our cleaning process includes:
+                                </p>
+                                <ul>
+                                    <li>Detailed inspection and assessment</li>
+                                    <li>Use of professional-grade cleaning equipment</li>
+                                    <li>EPA-approved cleaning solutions</li>
+                                    <li>Multi-step cleaning process</li>
+                                    <li>Final inspection and quality control</li>
+                                    <li>Post-cleaning air quality testing when needed</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Reconstruction Services</h3>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse61">
+                                What types of reconstruction services do you provide?
+                            </a>
+                        </div>
+                        <div id="collapse61" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="answer">Answer:</div>
+                                <p>
+                                    Our reconstruction services include:
+                                </p>
+                                <ul>
+                                    <li>Structural repairs and rebuilding</li>
+                                    <li>Interior and exterior renovations</li>
+                                    <li>Kitchen and bathroom remodeling</li>
+                                    <li>Flooring installation and repair</li>
+                                    <li>Drywall and painting</li>
+                                    <li>Roofing repairs</li>
+                                    <li>Custom carpentry</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse62">
+                                Do you handle both residential and commercial reconstruction?
+                            </a>
+                        </div>
+                        <div id="collapse62" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="answer">Answer:</div>
+                                <p>
+                                    Yes, we provide reconstruction services for both residential and commercial properties. Our team is experienced in handling projects of all sizes, from single-family homes to large commercial buildings. We work closely with property owners, insurance companies, and business owners to ensure the reconstruction meets all necessary codes and standards while maintaining the property's original design and functionality.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Emergency Board Up</h3>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse71">
+                                What is emergency board up service?
+                            </a>
+                        </div>
+                        <div id="collapse71" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="answer">Answer:</div>
+                                <p>
+                                    Emergency board up service is a 24/7 service we provide to secure properties after damage. This includes:
+                                </p>
+                                <ul>
+                                    <li>Securing broken windows and doors</li>
+                                    <li>Covering roof damage</li>
+                                    <li>Protecting exposed areas from weather</li>
+                                    <li>Preventing unauthorized access</li>
+                                    <li>Meeting insurance requirements for property protection</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse72">
+                                How quickly can you respond to an emergency board up request?
+                            </a>
+                        </div>
+                        <div id="collapse72" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="answer">Answer:</div>
+                                <p>
+                                    We are available 24/7/365 and typically respond within 2 hours of your call. Our emergency response team is always ready to secure your property and prevent further damage. We understand that time is critical in these situations, and we prioritize quick response times to protect your property and meet insurance requirements.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Personal & Business Property</h3>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse81">
+                                What services do you provide for personal and business property?
+                            </a>
+                        </div>
+                        <div id="collapse81" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="answer">Answer:</div>
+                                <p>
+                                    Our personal and business property services include:
+                                </p>
+                                <ul>
+                                    <li>Inventory and documentation of damaged items</li>
+                                    <li>Pack-out and secure storage of belongings</li>
+                                    <li>Contents cleaning and restoration</li>
+                                    <li>Electronics and appliance restoration</li>
+                                    <li>Document and photo restoration</li>
+                                    <li>Furniture restoration</li>
+                                    <li>Business equipment restoration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse82">
+                                How do you handle sensitive or valuable items?
+                            </a>
+                        </div>
+                        <div id="collapse82" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="answer">Answer:</div>
+                                <p>
+                                    We treat all items with the utmost care and have specialized processes for valuable and sensitive items:
+                                </p>
+                                <ul>
+                                    <li>Special handling for antiques and collectibles</li>
+                                    <li>Climate-controlled storage for sensitive items</li>
+                                    <li>Professional restoration of artwork and documents</li>
+                                    <li>Secure transportation and storage</li>
+                                    <li>Detailed documentation and tracking</li>
+                                    <li>Insurance-compliant inventory management</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

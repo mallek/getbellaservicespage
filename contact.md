@@ -67,5 +67,78 @@ description: Contact Bella Restoration Services for fire, smoke, water, and mold
                 <!-- End Contact Info -->
             </div>
         </div>
+
+        <!-- Service Areas -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="service-areas">
+                    <h3>Our Service Areas</h3>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h4>Cities</h4>
+                            <ul class="service-areas-list">
+                                <li>Applewood</li>
+                                <li>Arvada</li>
+                                <li>Aurora</li>
+                                <li>Boulder</li>
+                                <li>Brighton</li>
+                                <li>Broomfield</li>
+                                <li>Castle Rock</li>
+                                <li>Centennial</li>
+                                <li>Colorado Springs</li>
+                                <li>Columbine</li>
+                                <li>Commerce City</li>
+                                <li>Denver</li>
+                                <li>Englewood</li>
+                                <li>Erie</li>
+                                <li>Evans</li>
+                                <li>Firestone</li>
+                                <li>Fort Collins</li>
+                                <li>Fountain</li>
+                                <li>Golden</li>
+                                <li>Greenwood Village</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4>Cities</h4>
+                            <ul class="service-areas-list">
+                                <li>Highlands Ranch</li>
+                                <li>Johnstown</li>
+                                <li>Lafayette</li>
+                                <li>Lakewood</li>
+                                <li>Littleton</li>
+                                <li>Lone Tree</li>
+                                <li>Longmont</li>
+                                <li>Louisville</li>
+                                <li>Loveland</li>
+                                <li>Northglenn</li>
+                                <li>Parker</li>
+                                <li>Park Hill</li>
+                                <li>Southglenn</li>
+                                <li>Stapleton</li>
+                                <li>Superior</li>
+                                <li>Thornton</li>
+                                <li>Westminster</li>
+                                <li>Wheat Ridge</li>
+                                <li>Windsor</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4>Counties</h4>
+                            <ul class="service-areas-list">
+                                <li>Adams County</li>
+                                <li>Arapahoe County</li>
+                                <li>Boulder County</li>
+                                <li>Broomfield County</li>
+                                <li>Denver County</li>
+                                <li>Douglas County</li>
+                                <li>Jefferson County</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Service Areas -->
     </div>
 </div> 
