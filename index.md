@@ -9,13 +9,15 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
     <div id="sequence">
         <ul class="sequence-canvas">
             <!-- Slide 1 -->
-            <li class="bg15 animate-out" style="display: list-item; opacity: 1; z-index: 1;">
+            <li class="animate-out" style="display: list-item; opacity: 1; z-index: 1;">
                 <!-- Slide Title -->
                 <h2 class="title" style="">Restoration You Can Trust</h2>
+                <!-- Slide Image -->
+                <img class="slide-img" src="{{ site.baseurl }}/assets/images/slider-bg15.jpg" alt="Restoration You Can Trust" style="">
             </li>
             <!-- End Slide 1 -->
             <!-- Slide 2 -->
-            <li class="bg1 animate-out" style="display: list-item; opacity: 1; z-index: 1;">
+            <li class="animate-out" style="display: list-item; opacity: 1; z-index: 1;">
                 <!-- Slide Title -->
                 <h2 class="title" style="">Your time is valuable to us</h2>
                 <!-- Slide Text -->
@@ -25,7 +27,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             </li>
             <!-- End Slide 2 -->
             <!-- Slide 3 -->
-            <li class="bg4 animate-out" style="display: list-item; opacity: 1; z-index: 1;">
+            <li class="animate-out" style="display: list-item; opacity: 1; z-index: 1;">
                 <!-- Slide Title -->
                 <h2 class="title" style="">Full Service Restoration</h2>
                 <!-- Slide Text -->
@@ -35,7 +37,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             </li>
             <!-- End Slide 3 -->
             <!-- Slide 4 -->
-            <li class="bg3 animate-in" style="display: list-item; opacity: 1; z-index: 4;">
+            <li class="animate-in" style="display: list-item; opacity: 1; z-index: 4;">
                 <!-- Slide Title -->
                 <h2 class="title" style="">Professional Quality Work</h2>
                 <!-- Slide Text -->
