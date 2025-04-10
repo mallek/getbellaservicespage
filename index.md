@@ -12,8 +12,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             <li class="bg15 animate-out" style="display: list-item; opacity: 1; z-index: 1;">
                 <!-- Slide Title -->
                 <h2 class="title" style="">Restoration You Can Trust</h2>
-                <!-- Slide Image -->
-                <img class="slide-img" src="{{ site.baseurl }}/assets/images/slider-bg15.jpg" alt="Restoration You Can Trust" style="">
+                <!-- Slide Image -->                
             </li>
             <!-- End Slide 1 -->
             <!-- Slide 2 -->
