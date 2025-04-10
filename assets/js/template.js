@@ -46,8 +46,7 @@ $(document).ready(function(){
     //Contact Us Map
     // create a map in the "map" div, set the view to a given place and zoom
 	if ($('#contact-us-map').length > 0) { //Checks if there is a map element
-	    var map = L.map('contact-us-map').setView([39.72, -104.99], 9);
-
+	    var map = L.map('contact-us-map').setView([39.8475, -104.9814], 15);
 
 	    // add an OpenStreetMap tile layer
 	    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -55,8 +54,8 @@ $(document).ready(function(){
 	    }).addTo(map);
 
 	    // add a marker in the given location, attach some popup content to it and open the popup
-	    L.marker([39.72, -104.99]).addTo(map)
-            .bindPopup('Bella Restoration Services. <br> 425 Santa Fe Dr <br> Denver, CO 80204')
+	    L.marker([39.8475, -104.9814]).addTo(map)
+            .bindPopup('Bella Restoration Services. <br> 460 E 76th Ave, Unit A <br> Denver, CO 80229')
             .openPopup();
 	}
 
