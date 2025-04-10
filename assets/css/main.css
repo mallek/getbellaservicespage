@@ -2670,3 +2670,26 @@ span.color-red {
 .dropdown.open a.dropdown-toggle .caret {
   border-top: 4px solid #FFF;
 }
+/*--------------------------------------------------------------------------
++	Emergency Call Style
+--------------------------------------------------------------------------*/
+.emergency-call {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #e74c3c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.phone-number {
+    color: #2c3e50;
+    font-size: 1.2em;
+    font-weight: 900;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.phone-number:hover {
+    color: #e74c3c;
+}
