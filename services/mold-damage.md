@@ -33,7 +33,7 @@ description: Professional mold remediation services in Denver, Colorado. We safe
             </div>
             <div class="col-md-4">
                 <div class="service-wrapper">
-                    <img src="{{ site.baseurl }}/assets/images/icon-mold.png" width="180" alt="Mold Remediation">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-mold.jpg" width="180" alt="Mold Remediation">
                     <h3>24/7 Emergency Service</h3>
                     <p>Call us anytime at (303) 554-8883 for immediate assistance with mold remediation.</p>
                 </div>

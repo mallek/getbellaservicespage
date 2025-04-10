@@ -12,7 +12,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             <div class="col-md-3 col-sm-6">
                 <div class="service-wrapper">
                     <h3>Fire Restoration</h3>
-                    <img src="{{ site.baseurl }}/assets/images/icon-fire.png" width="180" alt="Fire Restoration" class="mb-3">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-fire.jpg" width="180" alt="Fire Restoration" class="mb-3">
                     <p>It's a very intimidating experience to witness a house fire. Our sincere condolences go out to you if you have experienced such a loss. Fire damage can give you a "where to start?" feeling. Let us show you the way.</p>
                     <a href="{{ site.baseurl }}/services/fire-damage" class="btn">Learn More</a>
                 </div>
@@ -21,7 +21,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             <div class="col-md-3 col-sm-6">
                 <div class="service-wrapper">
                     <h3>Smoke Cleanup</h3>
-                    <img src="{{ site.baseurl }}/assets/images/icon-smoke.png" width="180" alt="Smoke Cleanup" class="mb-3">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-smoke.jpg" width="180" alt="Smoke Cleanup" class="mb-3">
                     <p>Where there's smoke, there's usually a fire. In some cases, the smoke alone can cause more long term damage to your home and to your health. Let our team of professionals get this done for you.</p>
                     <a href="{{ site.baseurl }}/services/smoke-damage" class="btn">Learn More</a>
                 </div>
@@ -30,7 +30,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             <div class="col-md-3 col-sm-6">
                 <div class="service-wrapper">
                     <h3>Water Damage</h3>
-                    <img src="{{ site.baseurl }}/assets/images/icon-water.png" width="180" alt="Water Damage Restoration" class="mb-3">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-water.jpg" width="180" alt="Water Damage Restoration" class="mb-3">
                     <p>Water damage restoration is a commonly needed service. Broken or frozen pipes, overflows, and sewer back-ups are common situations where water damage restoration is needed.</p>
                     <a href="{{ site.baseurl }}/services/water-damage" class="btn">Learn More</a>
                 </div>
@@ -39,7 +39,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             <div class="col-md-3 col-sm-6">
                 <div class="service-wrapper">
                     <h3>Mold Cleanup</h3>
-                    <img src="{{ site.baseurl }}/assets/images/icon-mold.png" width="180" alt="Mold Cleanup" class="mb-3">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-mold.jpg" width="180" alt="Mold Cleanup" class="mb-3">
                     <p>Also known as mold remediation, mold cleanup and mold removal is another service that Bella Restoration professional services perform to keep your family safe.</p>
                     <a href="{{ site.baseurl }}/services/mold-damage" class="btn">Learn More</a>
                 </div>
@@ -51,7 +51,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             <div class="col-md-3 col-sm-6">
                 <div class="service-wrapper">
                     <h3>Professional Cleaning</h3>
-                    <img src="{{ site.baseurl }}/assets/images/icon-cleaning.png" width="180" alt="Professional Cleaning" class="mb-3">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-cleaning.jpg" width="180" alt="Professional Cleaning" class="mb-3">
                     <p>Our professional cleaning services go beyond restoration. We provide comprehensive cleaning solutions for both damaged properties and regular homes, including expert carpet cleaning services to restore your space to its best condition.</p>
                     <a href="{{ site.baseurl }}/services/cleaning" class="btn">Learn More</a>
                 </div>
@@ -60,7 +60,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             <div class="col-md-3 col-sm-6">
                 <div class="service-wrapper">
                     <h3>Reconstruction</h3>
-                    <img src="{{ site.baseurl }}/assets/images/icon-reconstruction.png" width="180" alt="Reconstruction Services" class="mb-3">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-reconstruction.jpg" width="180" alt="Reconstruction Services" class="mb-3">
                     <p>Our reconstruction services cover both interior and exterior projects. Whether you need repairs after damage or want to upgrade your space, our team of experts will restore your property to its best condition.</p>
                     <a href="{{ site.baseurl }}/services/reconstruction" class="btn">Learn More</a>
                 </div>
@@ -69,7 +69,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             <div class="col-md-3 col-sm-6">
                 <div class="service-wrapper">
                     <h3>Emergency Board Up</h3>
-                    <img src="{{ site.baseurl }}/assets/images/icon-emergency-board-up.png" width="180" alt="Emergency Board Up" class="mb-3">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-emergency-board-up.jpg" width="180" alt="Emergency Board Up" class="mb-3">
                     <p>Our 24/7 emergency board up service provides immediate protection for both residential and commercial properties. We offer temporary and permanent barricades to secure your property after damage.</p>
                     <a href="{{ site.baseurl }}/services/emergency-board-up" class="btn">Learn More</a>
                 </div>
@@ -78,7 +78,7 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
             <div class="col-md-3 col-sm-6">
                 <div class="service-wrapper">
                     <h3>Personal & Business Property</h3>
-                    <img src="{{ site.baseurl }}/assets/images/icon-personal-property.png" width="180" alt="Personal & Business Property" class="mb-3">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-personal-property.jpg" width="180" alt="Personal & Business Property" class="mb-3">
                     <p>We handle all aspects of personal and business property management during restoration, including packout, secure storage, and contents restoration to ensure your belongings are protected and restored.</p>
                     <a href="{{ site.baseurl }}/services/personal-property" class="btn">Learn More</a>
                 </div>

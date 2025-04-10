@@ -771,7 +771,6 @@ a:hover {
 }
 .shop-item .colors span {
   display: inline-block;
-  *display: inline;
   width: 8px;
   height: 8px;
   border-width: 1px;
@@ -823,7 +822,6 @@ a:hover {
 }
 .colors span {
   display: inline-block;
-  *display: inline;
   width: 8px;
   height: 8px;
   border-width: 1px;
@@ -915,7 +913,6 @@ span.color-red {
 }
 .product-details .choose-item-color span {
   display: inline-block;
-  *display: inline;
   width: 10px;
   height: 10px;
   border-width: 1px;
@@ -1004,7 +1001,6 @@ span.color-red {
 }
 .shopping-cart .color span {
   display: inline-block;
-  *display: inline;
   width: 8px;
   height: 8px;
   border-width: 1px;
@@ -2007,7 +2003,6 @@ span.color-red {
 }
 .sequence-pagination li {
   display: inline-block;
-  *display: inline;
   width: 14px;
   height: 14px;
   margin: 0 4px;
@@ -2354,7 +2349,6 @@ span.color-red {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666\9;
   background: rgba(80, 80, 80, 0.75);
   width: 100%;
 }

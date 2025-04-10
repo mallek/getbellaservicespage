@@ -34,7 +34,7 @@ description: Professional fire damage restoration services in Denver, Colorado. 
             </div>
             <div class="col-md-4">
                 <div class="service-wrapper">
-                    <img src="{{ site.baseurl }}/assets/images/icon-fire.png" width="180" alt="Fire Damage Restoration">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-fire.jpg" width="180" alt="Fire Damage Restoration">
                     <h3>24/7 Emergency Service</h3>
                     <p>Call us anytime at (303) 554-8883 for immediate assistance with fire damage restoration.</p>
                 </div>

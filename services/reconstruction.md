@@ -47,7 +47,7 @@ description: Professional reconstruction services in Denver, Colorado. We provid
             </div>
             <div class="col-md-4">
                 <div class="service-wrapper">
-                    <img src="{{ site.baseurl }}/assets/images/icon-reconstruction.png" width="180" alt="Reconstruction Services">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-reconstruction.jpg" width="180" alt="Reconstruction Services">
                     <h3>24/7 Emergency Service</h3>
                     <p>Call us anytime at (303) 554-8883 for immediate assistance with reconstruction services.</p>
                 </div>

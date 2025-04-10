@@ -35,7 +35,7 @@ description: Professional cleaning services in Denver, Colorado. We provide comp
             </div>
             <div class="col-md-4">
                 <div class="service-wrapper">
-                    <img src="{{ site.baseurl }}/assets/images/icon-cleaning.png" width="180" alt="Professional Cleaning Services">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-cleaning.jpg" width="180" alt="Professional Cleaning Services">
                     <h3>24/7 Emergency Service</h3>
                     <p>Call us anytime at (303) 554-8883 for immediate assistance with professional cleaning services.</p>
                 </div>

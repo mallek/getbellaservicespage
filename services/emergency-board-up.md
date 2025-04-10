@@ -46,7 +46,7 @@ description: 24/7 emergency board up services in Denver, Colorado. We provide im
             </div>
             <div class="col-md-4">
                 <div class="service-wrapper">
-                    <img src="{{ site.baseurl }}/assets/images/icon-emergency-board-up.png" width="180" alt="Emergency Board Up Services">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-emergency-board-up.jpg" width="180" alt="Emergency Board Up Services">
                     <h3>24/7 Emergency Service</h3>
                     <p>Call us anytime at (303) 554-8883 for immediate board up services to protect your property.</p>
                 </div>

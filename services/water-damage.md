@@ -33,7 +33,7 @@ description: Professional water damage restoration services in Denver, Colorado.
             </div>
             <div class="col-md-4">
                 <div class="service-wrapper">
-                    <img src="{{ site.baseurl }}/assets/images/icon-water.png" width="180" alt="Water Damage Restoration">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-water.jpg" width="180" alt="Water Damage Restoration">
                     <h3>24/7 Emergency Service</h3>
                     <p>Call us anytime at (303) 554-8883 for immediate assistance with water damage restoration.</p>
                 </div>

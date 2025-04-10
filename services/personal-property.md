@@ -55,7 +55,7 @@ description: Professional property management services in Denver, Colorado. We p
             </div>
             <div class="col-md-4">
                 <div class="service-wrapper">
-                    <img src="{{ site.baseurl }}/assets/images/icon-personal-property.png" width="180" alt="Personal & Business Property Services">
+                    <img src="{{ site.baseurl }}/assets/images/service-icon/icon-personal-property.jpg" width="180" alt="Personal & Business Property Services">
                     <h3>24/7 Emergency Service</h3>
                     <p>Call us anytime at (303) 554-8883 for immediate assistance with property management services.</p>
                 </div>
