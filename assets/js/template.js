@@ -8,7 +8,14 @@ $(document).ready(function(){
         animateStartingFrameIn: true,
         autoPlay: true,
         autoPlayDelay: 3000,
-        preloader: true
+        preloader: true,
+        preloadAllFrames: true,
+        hidePreloaderDelay: 500,
+        startingFrameID: "sequence",
+        autoPlay: true,
+        autoPlayDelay: 3000,
+        pauseOnHover: true,
+        reverseWhenNavigatingBackwards: true
     };
     
     var mySequence = $("#sequence").sequence(options).data("sequence");
