@@ -22,9 +22,7 @@ $(document).ready(function(){
 		
 		// Force start the sequence
 		setTimeout(function() {
-			if (!mySequence.isPlaying()) {
-				mySequence.next();
-			}
+			mySequence.next();
 		}, 100);
 	});
 
