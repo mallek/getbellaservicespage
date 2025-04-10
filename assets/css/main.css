@@ -124,7 +124,8 @@ a:hover {
   color: 0 0 3px #999;
 }
 .service-wrapper h3 {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  color: #cf3132;
   margin: 10px 0 !important;
 }
 .service-wrapper p {
