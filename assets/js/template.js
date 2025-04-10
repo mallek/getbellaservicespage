@@ -12,13 +12,22 @@ $(document).ready(function(){
         preloadAllFrames: true,
         hidePreloaderDelay: 500,
         startingFrameID: "sequence",
+        pauseOnHover: true,
+        reverseWhenNavigatingBackwards: true,
+        preloader: false, // Disable preloader since we're handling images directly
         autoPlay: true,
         autoPlayDelay: 3000,
-        pauseOnHover: true,
-        reverseWhenNavigatingBackwards: true
+        transitionThreshold: 500
     };
     
     var mySequence = $("#sequence").sequence(options).data("sequence");
+    
+    // Force start the sequence if it doesn't start automatically
+    setTimeout(function() {
+        if (!mySequence.isPlaying()) {
+            mySequence.next();
+        }
+    }, 1000);
 
     //Main menu Initialization
     mainMenu.init();
