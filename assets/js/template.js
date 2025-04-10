@@ -47,6 +47,8 @@ $(document).ready(function(){
 	//Contact Us Map
 	// create a map in the "map" div, set the view to a given place and zoom
 	if ($('#contact-us-map').length > 0) { //Checks if there is a map element
+		L.Icon.Default.imagePath = 'assets/images/';
+		
 		var map = L.map('contact-us-map').setView([39.8475, -104.9814], 15);
 
 		// add an OpenStreetMap tile layer
