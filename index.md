@@ -100,4 +100,67 @@ description: Professional restoration services in Denver, Colorado - Fire, Smoke
         </div>
     </div>
 </div>
-<!-- End Services --> 
+<!-- End Services -->
+
+<!-- Testimonials -->
+<div class="section">
+    <div class="container">
+        <h2>Happy Clients</h2>
+        <div class="row">
+            <!-- Testimonial -->
+            <div class="testimonial col-md-4 col-sm-6">
+                <!-- Author Photo -->
+                <div class="author-photo">
+                    <img src="{{ site.baseurl }}/assets/images/user4.jpg" alt="Author 1">
+                </div>
+                <div class="testimonial-bubble">
+                    <blockquote>
+                        <!-- Quote -->
+                        <p class="quote">
+                            "I wanted to take a moment and thank everyone that came out to work on this project!!  Everyone was extremely professional and polite and I have to say that I really appreciated their can do attitude.  Please pass this on to everyone and give them my sincere thanks!!  Take Care."
+                        </p>
+                        <!-- Author Info -->
+                        <cite class="author-info">
+                            - Karen Taylor,<br> Denver Apartment Rentals
+                        </cite>
+                    </blockquote>
+                    <div class="sprite arrow-speech-bubble"></div>
+                </div>
+            </div>
+            <!-- End Testimonial -->
+            <div class="testimonial col-md-4 col-sm-6">
+                <div class="author-photo">
+                    <img src="{{ site.baseurl }}/assets/images/user3.jpg" alt="Author 2">
+                </div>
+                <div class="testimonial-bubble">
+                    <blockquote>
+                        <p class="quote">
+                            "I am writing this letter today with many thanks to Bella Restoration. When my husband and I returned from vacation, we walked in to find that our water line on our swamp cooler was broken. It had spilled water all over our laminate flooring in our kitchen. I walked into my insurance agent's office to find out what I needed to do about this. He handed me a card for Bella Restoration. As I was talking with my agent I had noticed that their card said they were not only a restoration company but a full service reconstruction team. That was fabulous."
+                        </p>
+                        <cite class="author-info">
+                            - Kris Gordon<br>
+                        </cite>
+                    </blockquote>
+                    <div class="sprite arrow-speech-bubble"></div>
+                </div>
+            </div>
+            <div class="testimonial col-md-4 col-sm-6">
+                <div class="author-photo">
+                    <img src="{{ site.baseurl }}/assets/images/user2.jpg" alt="Author 3">
+                </div>
+                <div class="testimonial-bubble">
+                    <blockquote>
+                        <p class="quote">
+                            "We hired the professionals from Bella Restoration in October 2010 to replace our kitchen floor, which had been destroyed due to flooding caused by a dishwasher malfunction. Of course, the flooding occurred on a weekend so we knew that finding someone to fix not only the leaking issue but the floor was going to be a challenge. We were pleasantly surprised."
+                        </p>
+                        <cite class="author-info">
+                            - Ava Mae<br>Dealer 360
+                        </cite>
+                    </blockquote>
+                    <div class="sprite arrow-speech-bubble"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Testimonials --> 
