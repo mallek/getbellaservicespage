@@ -34,7 +34,8 @@
       [icon]="service.icon"
       [title]="service.title"
       [description]="service.description"
-      [link]="service.link">
+      [link]="service.link"
+      (cardClick)="onServiceCardClick($event)">
     </app-service-card>
   </div>
   <div class="services-grid">
@@ -42,7 +43,8 @@
       [icon]="service.icon"
       [title]="service.title"
       [description]="service.description"
-      [link]="service.link">
+      [link]="service.link"
+      (cardClick)="onServiceCardClick($event)">
     </app-service-card>
   </div>
 </section>
@@ -53,24 +55,34 @@
     <h2 class="section-title">Why Choose Bella Restoration?</h2>
     <div class="about-grid">
       <div class="about-card">
-        <mat-icon class="about-icon">schedule</mat-icon>
+        <mat-icon class="about-icon">access_time</mat-icon>
         <h3>24/7 Emergency Response</h3>
         <p>Disasters don't wait for business hours. Our emergency response team is available 24/7, 365 days a year to help when you need us most.</p>
       </div>
       <div class="about-card">
-        <mat-icon class="about-icon">verified</mat-icon>
+        <mat-icon class="about-icon">verified_user</mat-icon>
         <h3>Licensed & Insured</h3>
         <p>Fully licensed, bonded, and insured restoration professionals with years of experience in fire, water, mold, and smoke damage restoration.</p>
       </div>
       <div class="about-card">
-        <mat-icon class="about-icon">handshake</mat-icon>
+        <mat-icon class="about-icon">support_agent</mat-icon>
         <h3>Insurance Claims Assistance</h3>
         <p>We work directly with your insurance company to streamline the claims process and ensure you get the coverage you deserve.</p>
       </div>
       <div class="about-card">
-        <mat-icon class="about-icon">location_on</mat-icon>
+        <mat-icon class="about-icon">place</mat-icon>
         <h3>Local Denver Experts</h3>
         <p>Proudly serving the Denver Metro Area and Colorado. We know the local climate challenges and building requirements.</p>
+      </div>
+      <div class="about-card">
+        <mat-icon class="about-icon">build</mat-icon>
+        <h3>Advanced Equipment & Technology</h3>
+        <p>We use state-of-the-art equipment including industrial dehumidifiers, air scrubbers, and thermal imaging to ensure complete restoration.</p>
+      </div>
+      <div class="about-card">
+        <mat-icon class="about-icon">assignment</mat-icon>
+        <h3>Free Estimates & Inspections</h3>
+        <p>Get a detailed assessment of your damage at no cost. We provide transparent pricing and work with your budget to restore your property.</p>
       </div>
     </div>
   </div>
@@ -97,6 +109,9 @@
       <div class="service-area-item">Littleton</div>
       <div class="service-area-item">Wheat Ridge</div>
       <div class="service-area-item">Englewood</div>
+      <div class="service-area-item">Broomfield</div>
+      <div class="service-area-item">Commerce City</div>
+      <div class="service-area-item">Parker</div>
     </div>
   </div>
 </section>

@@ -1,6 +1,6 @@
-<mat-card class="service-card">
+<div class="service-card" (click)="onCardClick()">
   <img [src]="icon" [alt]="title" class="service-icon">
-  <h3>{{title}}</h3>
-  <p>{{description}}</p>
-  <a mat-button color="primary" [routerLink]="link">Learn More</a>
-</mat-card>
+  <h3>{{ title }}</h3>
+  <p>{{ description }}</p>
+  <a href="javascript:void(0)">Learn More</a>
+</div>
