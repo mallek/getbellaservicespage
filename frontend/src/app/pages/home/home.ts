@@ -1,5 +1,5 @@
 import { Component, Inject } from '@angular/core';
-import { CommonModule, JsonPipe } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
@@ -12,7 +12,7 @@ import { TestimonialCard } from '../../components/testimonial-card/testimonial-c
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, MatCardModule, MatIconModule, MatButtonModule, MatTabsModule, MatDialogModule, RouterModule, ServiceCard, TestimonialCard, JsonPipe],
+  imports: [CommonModule, MatCardModule, MatIconModule, MatButtonModule, MatTabsModule, MatDialogModule, RouterModule, ServiceCard, TestimonialCard],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
