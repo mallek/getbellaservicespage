@@ -22,9 +22,9 @@
     min-height: 56px;
   }
   
+  /* Hide company name on mobile to save space */
   mat-toolbar span:not(.spacer) {
-    font-size: 1rem;
-    font-weight: 500;
+    display: none;
   }
   
   mat-toolbar a[mat-button] {

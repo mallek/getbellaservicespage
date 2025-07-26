@@ -1054,6 +1054,74 @@ cite {
   .hero-logo {
     display: none;
   }
+
+  /* Contact section mobile fixes */
+  .contact-section {
+    padding: 40px 15px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .contact-info {
+    padding: 20px 15px;
+    margin: 0;
+  }
+
+  .contact-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+
+  .contact-item {
+    margin-bottom: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .contact-item mat-icon {
+    margin-right: 0;
+    margin-bottom: 4px;
+  }
+
+  .contact-item div {
+    width: 100%;
+  }
+
+  .contact-item strong {
+    font-size: 1rem;
+  }
+
+  .contact-item p {
+    font-size: 0.9rem;
+    margin: 2px 0 0 0;
+  }
+
+  .contact-cta h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .contact-cta p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-btn-primary,
+  .contact-btn-secondary {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1065,5 +1133,22 @@ cite {
   .gallery-tabs ::ng-deep .mat-mdc-tab {
     min-width: 80px;
     font-size: 0.85rem;
+  }
+}
+
+/* Global mobile overflow prevention */
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    padding: 0 15px;
+    text-align: center;
   }
 }
