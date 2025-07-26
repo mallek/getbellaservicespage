@@ -1,0 +1,339 @@
+<!-- Hero Section -->
+<section id="home" class="hero-bg">
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <img src="images/Bella_Logo.jpg" alt="Bella Restoration Logo" class="hero-logo">
+      <h1 class="hero-title">Denver's Professional Restoration Experts</h1>
+      <div class="hero-benefits">
+        <span class="benefit-item">✓ Save Money</span>
+        <span class="benefit-item">✓ Limit Downtime</span>
+        <span class="benefit-item">✓ Get Back to Living</span>
+      </div>
+      <p class="hero-cta">Schedule a quote today!</p>
+      <div class="hero-buttons">
+        <button mat-raised-button color="primary" class="hero-btn-primary" onclick="window.location.href='tel:3035548883'">
+          <mat-icon>call</mat-icon> (303) 554-8883
+        </button>
+        <button mat-raised-button class="hero-btn-secondary" onclick="window.location.href='mailto:admin@getbellaservices.com'">
+          <mat-icon>mail</mat-icon> GET A QUOTE
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="emergency-banner">
+    <mat-icon>warning</mat-icon>
+    <span><strong>24 HOUR EMERGENCY SERVICE:</strong> CALL (303) 554-8883</span>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services-section">
+  <h2 class="section-title">Residential & Commercial Restoration Services</h2>
+  <div class="services-grid">
+    <app-service-card *ngFor="let service of coreServices"
+      [icon]="service.icon"
+      [title]="service.title"
+      [description]="service.description"
+      [link]="service.link"
+      (cardClick)="onServiceCardClick($event)">
+    </app-service-card>
+  </div>
+  <div class="services-grid">
+    <app-service-card *ngFor="let service of additionalServices"
+      [icon]="service.icon"
+      [title]="service.title"
+      [description]="service.description"
+      [link]="service.link"
+      (cardClick)="onServiceCardClick($event)">
+    </app-service-card>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <div class="about-content">
+    <h2 class="section-title">Why Choose Bella Restoration?</h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <mat-icon class="about-icon">access_time</mat-icon>
+        <h3>24/7 Emergency Response</h3>
+        <p>Disasters don't wait for business hours. Our emergency response team is available 24/7, 365 days a year to help when you need us most.</p>
+      </div>
+      <div class="about-card">
+        <mat-icon class="about-icon">verified_user</mat-icon>
+        <h3>Licensed & Insured</h3>
+        <p>Fully licensed, bonded, and insured restoration professionals with years of experience in fire, water, mold, and smoke damage restoration.</p>
+      </div>
+      <div class="about-card">
+        <mat-icon class="about-icon">support_agent</mat-icon>
+        <h3>Insurance Claims Assistance</h3>
+        <p>We work directly with your insurance company to streamline the claims process and ensure you get the coverage you deserve.</p>
+      </div>
+      <div class="about-card">
+        <mat-icon class="about-icon">place</mat-icon>
+        <h3>Local Denver Experts</h3>
+        <p>Proudly serving the Denver Metro Area and Colorado. We know the local climate challenges and building requirements.</p>
+      </div>
+      <div class="about-card">
+        <mat-icon class="about-icon">build</mat-icon>
+        <h3>Advanced Equipment & Technology</h3>
+        <p>We use state-of-the-art equipment including industrial dehumidifiers, air scrubbers, and thermal imaging to ensure complete restoration.</p>
+      </div>
+      <div class="about-card">
+        <mat-icon class="about-icon">assignment</mat-icon>
+        <h3>Free Estimates & Inspections</h3>
+        <p>Get a detailed assessment of your damage at no cost. We provide transparent pricing and work with your budget to restore your property.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Service Areas Section -->
+<section id="service-areas" class="service-areas-section">
+  <div class="service-areas-content">
+    <h2 class="section-title">Proudly Serving Denver Metro Area and Colorado</h2>
+    <p class="service-areas-description">
+      When disaster strikes in Denver, we want you to know who to count on, and that's the team at Bella Restoration. 
+      Our staff specializes in a wide variety of practices and techniques designed to help restore your home or business to its original condition.
+    </p>
+    <div class="service-areas-grid">
+      <div class="service-area-item">Denver</div>
+      <div class="service-area-item">Aurora</div>
+      <div class="service-area-item">Lakewood</div>
+      <div class="service-area-item">Thornton</div>
+      <div class="service-area-item">Arvada</div>
+      <div class="service-area-item">Westminster</div>
+      <div class="service-area-item">Centennial</div>
+      <div class="service-area-item">Boulder</div>
+      <div class="service-area-item">Highlands Ranch</div>
+      <div class="service-area-item">Littleton</div>
+      <div class="service-area-item">Wheat Ridge</div>
+      <div class="service-area-item">Englewood</div>
+      <div class="service-area-item">Broomfield</div>
+      <div class="service-area-item">Commerce City</div>
+      <div class="service-area-item">Parker</div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials-section">
+  <h2 class="section-title">Happy Clients</h2>
+  <div class="testimonials-grid">
+    <app-testimonial-card *ngFor="let testimonial of testimonials"
+      [photo]="testimonial.photo"
+      [quote]="testimonial.quote"
+      [author]="testimonial.author">
+    </app-testimonial-card>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+  <h2 class="section-title">Our Work Gallery</h2>
+  <p class="gallery-description">See the quality of our restoration work across different service categories</p>
+  
+  <mat-tab-group class="gallery-tabs" animationDuration="300ms">
+    <mat-tab label="All Projects">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getAllImages()" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Fire Damage">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getImagesByCategory('Fire Damage')" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Water Damage">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getImagesByCategory('Water Damage')" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Reconstruction">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getImagesByCategory('Reconstruction')" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Cleaning">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getImagesByCategory('Cleaning')" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Property Services">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getImagesByCategory('Personal & Business Property')" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="contact-content">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <div class="contact-item">
+          <mat-icon>location_on</mat-icon>
+          <div>
+            <strong>Address</strong>
+            <p>460 E 76th Ave, Unit A<br>Denver, CO 80229</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <mat-icon>phone</mat-icon>
+          <div>
+            <strong>Phone</strong>
+            <p><a href="tel:3035548883">(303) 554-8883</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <mat-icon>email</mat-icon>
+          <div>
+            <strong>Email</strong>
+            <p><a href="mailto:admin@getbellaservices.com">admin@getbellaservices.com</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <mat-icon>schedule</mat-icon>
+          <div>
+            <strong>Emergency Service</strong>
+            <p>24 Hours, 7 Days a Week</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <h3>Ready to Get Started?</h3>
+        <p>Don't wait when disaster strikes. Contact us immediately for fast, professional restoration services.</p>
+        <div class="contact-buttons">
+          <button mat-raised-button color="primary" class="contact-btn-primary" onclick="window.location.href='tel:3035548883'">
+            <mat-icon>call</mat-icon> Call Now
+          </button>
+          <button mat-stroked-button color="accent" class="contact-btn-secondary" onclick="window.location.href='mailto:admin@getbellaservices.com'">
+            <mat-icon>email</mat-icon> Email Us
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer-section">
+  <div class="footer-content">
+    <div class="footer-main">
+      <div class="footer-col footer-brand">
+        <!-- Logo Option -->
+        <!-- <img src="images/Bella_Logo_New.png" alt="Bella Restoration Logo" class="footer-logo"> -->
+        
+        <!-- Text Alternative (uncomment to use instead of logo) -->
+        <div class="footer-brand-text">
+          <h2>Bella Restoration</h2>
+          <p class="footer-tagline">Professional Restoration Services</p>
+        </div>
+        
+        <p>Professional restoration services in Denver, Colorado. Specializing in fire, smoke, water, and mold damage restoration with 24/7 emergency response.</p>
+        <div class="footer-social">
+          <a href="http://www.facebook.com/BellaRestorationServicesINC/" target="_blank" mat-icon-button>
+            <mat-icon>facebook</mat-icon>
+          </a>
+          <a href="http://www.homeadvisor.com/rated.BellaRestoration.44103056.html" target="_blank" mat-icon-button>
+            <mat-icon>home</mat-icon>
+          </a>
+          <a href="http://plus.google.com/111383186658896046675" target="_blank" mat-icon-button>
+            <mat-icon>add_circle</mat-icon>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul>
+          <li>Fire Damage Restoration</li>
+          <li>Water Damage Restoration</li>
+          <li>Smoke Damage Cleanup</li>
+          <li>Mold Remediation</li>
+          <li>Professional Cleaning</li>
+          <li>Reconstruction Services</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Service Areas</h3>
+        <ul>
+          <li>Denver Metro Area</li>
+          <li>Aurora & Lakewood</li>
+          <li>Boulder & Westminster</li>
+          <li>Arvada & Thornton</li>
+          <li>Littleton & Centennial</li>
+          <li>All of Colorado</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><strong>Phone:</strong> (303) 554-8883</li>
+          <li><strong>Email:</strong> admin@getbellaservices.com</li>
+          <li><strong>Address:</strong> 460 E 76th Ave, Unit A, Denver, CO 80229</li>
+          <li><strong>Emergency:</strong> 24/7 Available</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copyright">
+        © 2012-2025 Bella Restoration Services. All rights reserved. | Website by Haley Computer Solutions
+      </div>
+      <div class="footer-certifications">
+        <img src="images/cleantrust.png" alt="Clean Trust Certified" class="cert-logo">
+        <img src="images/24hour.png" alt="24 Hour Service" class="cert-logo">
+        <img src="images/bbba.png" alt="BBB Accredited" class="cert-logo">
+      </div>
+    </div>
+  </div>
+</footer>
