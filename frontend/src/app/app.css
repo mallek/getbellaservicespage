@@ -2,6 +2,22 @@
   flex: 1 1 auto;
 }
 
+/* Sticky toolbar */
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Add top margin to body content to account for fixed toolbar */
+router-outlet {
+  display: block;
+  margin-top: 64px; /* Height of Material toolbar */
+}
+
 /* Toolbar logo fix */
 .toolbar-logo {
   height: 40px;
@@ -20,6 +36,11 @@
   mat-toolbar {
     padding: 0 8px;
     min-height: 56px;
+  }
+  
+  /* Adjust content margin for mobile toolbar height */
+  router-outlet {
+    margin-top: 56px; /* Mobile toolbar height */
   }
   
   /* Hide company name on mobile to save space */

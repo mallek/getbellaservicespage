@@ -999,7 +999,7 @@ cite {
   }
 
   .hero-content {
-    padding: 80px 15px 100px 15px; /* Increased top padding to clear toolbar */
+    padding: 20px 15px 100px 15px; /* Reduced top padding since toolbar is now fixed */
   }
 
   .hero-title {
