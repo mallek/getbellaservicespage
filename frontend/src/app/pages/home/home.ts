@@ -221,77 +221,204 @@ export class Home {
   ];
 
   galleryImages = [
+    // Kitchen Restoration Projects
     {
-      src: 'images/portfolio1.jpg',
+      src: 'images/gallery/kitchen-restoration-before-after_bella-restoration-services2.jpg',
       title: 'Kitchen Fire Restoration',
       category: 'Fire Damage',
-      description: 'Complete kitchen restoration after fire damage including cabinets, flooring, and appliances'
+      description: 'Complete kitchen restoration after fire damage including new cabinets, countertops, and flooring'
     },
     {
-      src: 'images/portfolio2.jpg',
-      title: 'Living Room Fire Recovery',
+      src: 'images/gallery/kitchen-restoration-before-after_bella-restoration-services.jpg',
+      title: 'Kitchen Water Damage Restoration',
+      category: 'Water Damage',
+      description: 'Full kitchen renovation after water damage from burst pipes and flooding'
+    },
+    {
+      src: 'images/gallery/Kitchen-Restoration-Before-After-Bella-Restoration-Services.jpg',
+      title: 'Kitchen Reconstruction',
+      category: 'Reconstruction',
+      description: 'Complete kitchen remodel with modern appliances and custom cabinetry'
+    },
+    {
+      src: 'images/gallery/kitchen-renovation_bella-america_before-after.jpg',
+      title: 'Kitchen Renovation Project',
+      category: 'Reconstruction',
+      description: 'Full kitchen renovation with new layout and premium finishes'
+    },
+    {
+      src: 'images/gallery/restoration-project_kitchen-renovation_bella-restoration-services.jpg',
+      title: 'Kitchen Restoration Project',
       category: 'Fire Damage',
-      description: 'Full living room restoration with new flooring, walls, and furnishings'
+      description: 'Kitchen restoration after fire damage with complete rebuild'
+    },
+
+    // Bathroom Projects
+    {
+      src: 'images/gallery/Bathroom-Renovation-Before-After_Flooring-Bella-Group.jpg',
+      title: 'Bathroom Water Damage Restoration',
+      category: 'Water Damage',
+      description: 'Complete bathroom restoration after water damage including new flooring and fixtures'
     },
     {
-      src: 'images/portfolio3.jpg',
+      src: 'images/gallery/Flooring-Bella-Group_Bathroom-Renovation-Before-After.jpg',
+      title: 'Bathroom Reconstruction',
+      category: 'Reconstruction',
+      description: 'Full bathroom renovation with modern tile work and fixtures'
+    },
+    {
+      src: 'images/gallery/Before-And-After-Shower-Renovation-Bella-Group.jpg',
+      title: 'Shower Renovation',
+      category: 'Reconstruction',
+      description: 'Complete shower renovation with custom tile work and modern fixtures'
+    },
+
+    // Flooring Projects
+    {
+      src: 'images/gallery/flooring-project_bella-group_before-after.jpg',
+      title: 'Flooring Restoration',
+      category: 'Water Damage',
+      description: 'Hardwood floor restoration after water damage with refinishing'
+    },
+    {
+      src: 'images/gallery/Flooring-Before-And-After_Bella-Group.jpg',
+      title: 'Floor Renovation',
+      category: 'Reconstruction',
+      description: 'Complete flooring renovation with new hardwood installation'
+    },
+    {
+      src: 'images/gallery/Before-And-After_Bella-Restoration-Services_Floor-Renovation.jpg',
+      title: 'Floor Water Damage Restoration',
+      category: 'Water Damage',
+      description: 'Floor restoration after water damage with complete replacement'
+    },
+
+    // Water Damage Projects
+    {
+      src: 'images/gallery/bella-water-damage.jpg',
       title: 'Basement Water Damage',
       category: 'Water Damage',
-      description: 'Basement flooding restoration including waterproofing and mold prevention'
+      description: 'Basement flooding restoration with waterproofing and reconstruction'
     },
     {
-      src: 'images/portfolio4.jpg',
-      title: 'Bathroom Water Restoration',
+      src: 'images/gallery/bella-water-damage2.jpg',
+      title: 'Living Room Water Damage',
       category: 'Water Damage',
-      description: 'Complete bathroom renovation after water damage from burst pipes'
+      description: 'Water damage restoration in living area with drying and reconstruction'
     },
     {
-      src: 'images/portfolio5.jpg',
-      title: 'Office Reconstruction',
-      category: 'Reconstruction',
-      description: 'Commercial office space reconstruction with modern finishes'
+      src: 'images/gallery/bella-water-damage3.jpg',
+      title: 'Residential Water Damage',
+      category: 'Water Damage',
+      description: 'Complete home water damage restoration with professional drying equipment'
     },
     {
-      src: 'images/portfolio6.jpg',
-      title: 'Home Addition',
-      category: 'Reconstruction',
-      description: 'New room addition with custom carpentry and electrical work'
+      src: 'images/gallery/bella-water-damage4.jpg',
+      title: 'Commercial Water Damage',
+      category: 'Water Damage',
+      description: 'Commercial property water damage restoration and reconstruction'
     },
     {
-      src: 'images/portfolio7.jpg',
-      title: 'Carpet Deep Cleaning',
-      category: 'Cleaning',
-      description: 'Professional carpet cleaning and stain removal services'
+      src: 'images/gallery/frozen-basement-pipes-water-damage.jpg',
+      title: 'Frozen Pipe Water Damage',
+      category: 'Water Damage',
+      description: 'Water damage restoration from frozen and burst pipes in basement'
     },
+
+    // General Restoration Projects
     {
-      src: 'images/portfolio8.jpg',
-      title: 'Post-Fire Cleaning',
-      category: 'Cleaning',
-      description: 'Comprehensive cleaning and deodorization after fire damage'
-    },
-    {
-      src: 'images/portfolio9.jpg',
-      title: 'Tile and Grout Restoration',
-      category: 'Cleaning',
-      description: 'Professional tile and grout cleaning and restoration'
-    },
-    {
-      src: 'images/services1.jpg',
-      title: 'Smoke Damage Cleanup',
+      src: 'images/gallery/restoration-bella-restoration-services-before-after.jpg',
+      title: 'Complete Home Restoration',
       category: 'Fire Damage',
-      description: 'Smoke damage cleanup and odor removal throughout home'
+      description: 'Full home restoration after fire damage with complete reconstruction'
     },
     {
-      src: 'images/services2.jpg',
-      title: 'Flood Water Extraction',
-      category: 'Water Damage',
-      description: 'Emergency water extraction and drying equipment setup'
+      src: 'images/gallery/Restoration-Project-Before-After-Bella-Restoration-Services.jpg',
+      title: 'Room Restoration Project',
+      category: 'Fire Damage',
+      description: 'Complete room restoration after fire and smoke damage'
     },
     {
-      src: 'images/services3.jpg',
-      title: 'Hardwood Floor Refinishing',
+      src: 'images/gallery/restoration_bella-restoration-services_room-damage_before-after.jpg',
+      title: 'Room Damage Restoration',
+      category: 'Fire Damage',
+      description: 'Professional restoration of fire-damaged room with complete rebuild'
+    },
+    {
+      src: 'images/gallery/restoration_bella-restoration-services_home-theater-before-after.jpg',
+      title: 'Home Theater Restoration',
       category: 'Reconstruction',
-      description: 'Complete hardwood floor restoration and refinishing'
+      description: 'Home theater restoration and renovation with modern finishes'
+    },
+
+    // Cleaning and Storage Projects
+    {
+      src: 'images/gallery/cleaning.jpg',
+      title: 'Professional Deep Cleaning',
+      category: 'Cleaning',
+      description: 'Post-restoration deep cleaning and sanitization services'
+    },
+    {
+      src: 'images/gallery/cleaning1.jpg',
+      title: 'Carpet and Upholstery Cleaning',
+      category: 'Cleaning',
+      description: 'Professional carpet and upholstery cleaning after damage restoration'
+    },
+    {
+      src: 'images/gallery/tile.jpg',
+      title: 'Tile and Grout Cleaning',
+      category: 'Cleaning',
+      description: 'Professional tile and grout cleaning and restoration services'
+    },
+    {
+      src: 'images/gallery/storage.jpg',
+      title: 'Content Storage Services',
+      category: 'Personal & Business Property',
+      description: 'Secure storage of personal belongings during restoration process'
+    },
+    {
+      src: 'images/gallery/storage2.jpg',
+      title: 'Property Storage Solutions',
+      category: 'Personal & Business Property',
+      description: 'Climate-controlled storage for furniture and personal items'
+    },
+    {
+      src: 'images/gallery/storage3.jpg',
+      title: 'Business Property Storage',
+      category: 'Personal & Business Property',
+      description: 'Professional packing and storage of business equipment and inventory'
+    },
+    {
+      src: 'images/gallery/packing1.jpg',
+      title: 'Professional Packing Services',
+      category: 'Personal & Business Property',
+      description: 'Careful packing and labeling of personal belongings for storage'
+    },
+    {
+      src: 'images/gallery/packing2.jpg',
+      title: 'Content Packout Services',
+      category: 'Personal & Business Property',
+      description: 'Complete packout services for damaged property restoration'
+    },
+
+    // Specialty Projects
+    {
+      src: 'images/gallery/attic_ba.jpg',
+      title: 'Attic Restoration',
+      category: 'Fire Damage',
+      description: 'Attic fire damage restoration with insulation and structural repair'
+    },
+    {
+      src: 'images/gallery/attic_ba2.jpg',
+      title: 'Attic Water Damage',
+      category: 'Water Damage',
+      description: 'Attic water damage restoration from roof leak with complete repair'
+    },
+    {
+      src: 'images/gallery/brick1_ba.jpg',
+      title: 'Brick and Masonry Restoration',
+      category: 'Reconstruction',
+      description: 'Professional brick and masonry repair and restoration services'
     }
   ];
 
