@@ -17,9 +17,17 @@ export class App {
   scrollToSection(sectionId: string) {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
+      // Get the toolbar height to offset the scroll position
+      const toolbar = document.querySelector('mat-toolbar') as HTMLElement;
+      const toolbarHeight = toolbar ? toolbar.offsetHeight : 64;
+      
+      // Calculate the position accounting for the sticky toolbar
+      const elementPosition = element.offsetTop - toolbarHeight;
+      
+      // Smooth scroll to the adjusted position
+      window.scrollTo({
+        top: elementPosition,
+        behavior: 'smooth'
       });
     }
   }
