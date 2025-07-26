@@ -1049,6 +1049,11 @@ cite {
   .emergency-banner mat-icon {
     font-size: 1rem;
   }
+
+  /* Hide hero logo on mobile for cleaner mobile experience */
+  .hero-logo {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
