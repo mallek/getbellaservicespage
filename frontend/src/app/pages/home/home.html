@@ -128,6 +128,79 @@
   </div>
 </section>
 
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+  <h2 class="section-title">Our Work Gallery</h2>
+  <p class="gallery-description">See the quality of our restoration work across different service categories</p>
+  
+  <mat-tab-group class="gallery-tabs" animationDuration="300ms">
+    <mat-tab label="All Projects">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getAllImages()" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Fire Damage">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getImagesByCategory('Fire Damage')" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Water Damage">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getImagesByCategory('Water Damage')" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Reconstruction">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getImagesByCategory('Reconstruction')" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    
+    <mat-tab label="Cleaning">
+      <div class="gallery-grid">
+        <div *ngFor="let image of getImagesByCategory('Cleaning')" class="gallery-item" (click)="openImageModal(image)">
+          <img [src]="image.src" [alt]="image.title" class="gallery-image">
+          <div class="gallery-overlay">
+            <mat-icon class="gallery-icon">zoom_in</mat-icon>
+            <h4>{{ image.title }}</h4>
+            <p>{{ image.category }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</section>
+
 <!-- Contact Section -->
 <section id="contact" class="contact-section">
   <div class="contact-content">

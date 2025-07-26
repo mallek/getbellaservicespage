@@ -3,6 +3,7 @@ import { CommonModule, JsonPipe } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatTabsModule } from '@angular/material/tabs';
 import { MatDialog, MatDialogModule, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { RouterModule } from '@angular/router';
 import { ServiceCard } from '../../components/service-card/service-card';
@@ -11,7 +12,7 @@ import { TestimonialCard } from '../../components/testimonial-card/testimonial-c
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, MatCardModule, MatIconModule, MatButtonModule, MatDialogModule, RouterModule, ServiceCard, TestimonialCard, JsonPipe],
+  imports: [CommonModule, MatCardModule, MatIconModule, MatButtonModule, MatTabsModule, MatDialogModule, RouterModule, ServiceCard, TestimonialCard, JsonPipe],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
@@ -218,6 +219,100 @@ export class Home {
       author: 'Sarah Chen, Property Manager'
     }
   ];
+
+  galleryImages = [
+    {
+      src: 'images/portfolio1.jpg',
+      title: 'Kitchen Fire Restoration',
+      category: 'Fire Damage',
+      description: 'Complete kitchen restoration after fire damage including cabinets, flooring, and appliances'
+    },
+    {
+      src: 'images/portfolio2.jpg',
+      title: 'Living Room Fire Recovery',
+      category: 'Fire Damage',
+      description: 'Full living room restoration with new flooring, walls, and furnishings'
+    },
+    {
+      src: 'images/portfolio3.jpg',
+      title: 'Basement Water Damage',
+      category: 'Water Damage',
+      description: 'Basement flooding restoration including waterproofing and mold prevention'
+    },
+    {
+      src: 'images/portfolio4.jpg',
+      title: 'Bathroom Water Restoration',
+      category: 'Water Damage',
+      description: 'Complete bathroom renovation after water damage from burst pipes'
+    },
+    {
+      src: 'images/portfolio5.jpg',
+      title: 'Office Reconstruction',
+      category: 'Reconstruction',
+      description: 'Commercial office space reconstruction with modern finishes'
+    },
+    {
+      src: 'images/portfolio6.jpg',
+      title: 'Home Addition',
+      category: 'Reconstruction',
+      description: 'New room addition with custom carpentry and electrical work'
+    },
+    {
+      src: 'images/portfolio7.jpg',
+      title: 'Carpet Deep Cleaning',
+      category: 'Cleaning',
+      description: 'Professional carpet cleaning and stain removal services'
+    },
+    {
+      src: 'images/portfolio8.jpg',
+      title: 'Post-Fire Cleaning',
+      category: 'Cleaning',
+      description: 'Comprehensive cleaning and deodorization after fire damage'
+    },
+    {
+      src: 'images/portfolio9.jpg',
+      title: 'Tile and Grout Restoration',
+      category: 'Cleaning',
+      description: 'Professional tile and grout cleaning and restoration'
+    },
+    {
+      src: 'images/services1.jpg',
+      title: 'Smoke Damage Cleanup',
+      category: 'Fire Damage',
+      description: 'Smoke damage cleanup and odor removal throughout home'
+    },
+    {
+      src: 'images/services2.jpg',
+      title: 'Flood Water Extraction',
+      category: 'Water Damage',
+      description: 'Emergency water extraction and drying equipment setup'
+    },
+    {
+      src: 'images/services3.jpg',
+      title: 'Hardwood Floor Refinishing',
+      category: 'Reconstruction',
+      description: 'Complete hardwood floor restoration and refinishing'
+    }
+  ];
+
+  getAllImages() {
+    return this.galleryImages;
+  }
+
+  getImagesByCategory(category: string) {
+    return this.galleryImages.filter(image => image.category === category);
+  }
+
+  openImageModal(image: any) {
+    this.dialog.open(ImageModalComponent, {
+      width: '90vw',
+      maxWidth: '1200px',
+      maxHeight: '90vh',
+      hasBackdrop: true,
+      panelClass: 'image-modal-container',
+      data: image
+    });
+  }
 
   onServiceCardClick(serviceTitle: string) {
     const serviceData = this.serviceDetails[serviceTitle];
@@ -573,5 +668,150 @@ export class ServiceModalComponent {
 
   emailUs() {
     window.location.href = 'mailto:admin@getbellaservices.com?subject=Service Quote Request';
+  }
+}
+
+// Image Modal Component for Gallery
+@Component({
+  selector: 'app-image-modal',
+  standalone: true,
+  imports: [CommonModule, MatDialogModule, MatButtonModule, MatIconModule],
+  template: `
+    <div class="image-modal-wrapper">
+      <div class="image-modal-header">
+        <h3>{{ data.title }}</h3>
+        <button mat-icon-button mat-dialog-close class="close-btn">
+          <mat-icon>close</mat-icon>
+        </button>
+      </div>
+      <div class="image-modal-content">
+        <img [src]="data.src" [alt]="data.title" class="modal-image">
+        <div class="image-info">
+          <p class="image-category">{{ data.category }}</p>
+          <p class="image-description">{{ data.description }}</p>
+        </div>
+      </div>
+      <div class="image-modal-actions">
+        <button mat-raised-button color="primary" (click)="callForQuote()">
+          <mat-icon>call</mat-icon> Get Quote for Similar Work
+        </button>
+      </div>
+    </div>
+  `,
+  styles: [`
+    .image-modal-wrapper {
+      display: flex;
+      flex-direction: column;
+      max-height: 85vh;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    
+    .image-modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+      color: white;
+      padding: 16px 20px;
+      flex-shrink: 0;
+    }
+    
+    .image-modal-header h3 {
+      margin: 0;
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+    
+    .close-btn {
+      color: white !important;
+      background: rgba(255,255,255,0.1) !important;
+    }
+    
+    .close-btn:hover {
+      background: rgba(255,255,255,0.2) !important;
+    }
+    
+    .image-modal-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    .modal-image {
+      width: 100%;
+      height: auto;
+      max-height: 60vh;
+      object-fit: contain;
+      background: #f8f9fa;
+    }
+    
+    .image-info {
+      padding: 16px 20px;
+      background: #fafafa;
+      border-top: 1px solid #e9ecef;
+    }
+    
+    .image-category {
+      color: #dc3545;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin: 0 0 8px 0;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .image-description {
+      color: #495057;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+    
+    .image-modal-actions {
+      padding: 16px 20px;
+      background: #f8f9fa;
+      border-top: 1px solid #e9ecef;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    
+    .image-modal-actions button {
+      min-width: 200px;
+    }
+    
+    @media (max-width: 600px) {
+      .image-modal-header {
+        padding: 12px 16px;
+      }
+      
+      .image-modal-header h3 {
+        font-size: 1.1rem;
+      }
+      
+      .image-info {
+        padding: 12px 16px;
+      }
+      
+      .image-modal-actions {
+        padding: 12px 16px;
+      }
+      
+      .image-modal-actions button {
+        width: 100%;
+      }
+    }
+  `]
+})
+export class ImageModalComponent {
+  constructor(
+    public dialogRef: MatDialogRef<ImageModalComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: any
+  ) {}
+
+  callForQuote() {
+    window.location.href = 'tel:3035548883';
   }
 }
