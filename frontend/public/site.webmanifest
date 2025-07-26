@@ -1,0 +1,24 @@
+{
+  "name": "Bella Restoration Services - Denver's Professional Restoration Experts",
+  "short_name": "Bella Restoration",
+  "description": "Professional fire, water, smoke, and mold damage restoration services in Denver, Colorado. 24/7 emergency response available.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#dc3545",
+  "background_color": "#2c3e50",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "categories": ["business", "utilities"]
+}
