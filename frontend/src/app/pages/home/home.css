@@ -994,12 +994,12 @@ cite {
 
   /* Mobile hero section fixes */
   .hero-bg {
-    height: 45vh;
-    min-height: 400px;
+    height: 50vh;
+    min-height: 450px;
   }
 
   .hero-content {
-    padding: 20px 15px 100px 15px; /* Extra bottom padding for mobile */
+    padding: 80px 15px 100px 15px; /* Increased top padding to clear toolbar */
   }
 
   .hero-title {
