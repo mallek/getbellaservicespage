@@ -1,0 +1,31 @@
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px;
+  text-align: center;
+  min-height: 300px;
+}
+
+.service-icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.service-card h3 {
+  margin: 0 0 16px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.service-card p {
+  flex: 1;
+  margin: 0 0 16px 0;
+  line-height: 1.5;
+}
+
+.service-card a {
+  margin-top: auto;
+}

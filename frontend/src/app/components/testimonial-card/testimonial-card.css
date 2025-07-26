@@ -1,0 +1,29 @@
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 20px;
+  text-align: center;
+  min-height: 250px;
+}
+
+.testimonial-photo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.testimonial-card blockquote {
+  flex: 1;
+  font-style: italic;
+  margin: 0 0 16px 0;
+  line-height: 1.5;
+}
+
+.testimonial-card cite {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: normal;
+}
