@@ -13,8 +13,7 @@
 /* Mobile toolbar fixes */
 @media (max-width: 768px) {
   .toolbar-logo {
-    height: 32px;
-    margin-right: 12px;
+    display: none; /* Hide logo on mobile for cleaner look */
   }
   
   mat-toolbar {
