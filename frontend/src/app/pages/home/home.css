@@ -279,9 +279,10 @@ cite {
 
 /* Footer Section */
 .footer-section {
-  background: #1a1a1a;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: #ecf0f1;
-  padding: 60px 20px 20px;
+  padding: 60px 0 80px 0; /* Increased bottom padding for emergency banner */
+  margin-top: 80px;
 }
 
 .footer-content {
@@ -1121,6 +1122,35 @@ cite {
     width: 100%;
     padding: 12px 20px;
     font-size: 0.9rem;
+  }
+
+  /* Footer mobile spacing */
+  .footer-section {
+    padding: 40px 15px 100px 15px; /* Extra bottom padding for mobile emergency banner */
+    margin-top: 40px;
+  }
+
+  .footer-content {
+    padding: 0;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-col {
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer-certifications {
+    justify-content: center;
   }
 }
 
